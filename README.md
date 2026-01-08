@@ -1,9 +1,34 @@
-**Topic: Identifying Misinformation in Online News Articles**
+**📰 Identifying Misinformation in Online News Articles**
 
-**Phase 1: Fake News Text Classification (Baseline Models)**
+**Fake News Classification Using NLP, Transformers & Web Deployment**
 
-This project applies NLP techniques to classify online news articles as REAL or FAKE using the WELFake dataset (~72,000 articles). Phase 1 focused on data preprocessing and building baseline models. Text was cleaned and standardized, and TF-IDF with Logistic Regression and Naive Bayes were implemented to establish strong, interpretable baselines and understand key linguistic patterns.
+**📌 Overview**
 
-**Phase 2: Transformer Models & Application Deployment**
+This project focuses on detecting misinformation in online news articles using modern NLP techniques. It is built in two phases: baseline machine‑learning models and advanced transformer‑based architectures, culminating in a deployed web application for real‑time fake news detection.
 
-In Phase 2, model performance was improved using a lightweight Keras Transformer and fine-tuned DistilBERT, achieving the best results. The project concluded with a Gradio web application for real-time fake news detection and headline-article consistency checking, demonstrating a practical, business-ready NLP solution.
+**🚀 Phase 1: Baseline Fake News Classification**
+
+Goal: Establish strong, interpretable baseline models.
+Dataset: WELFake (~72,000 labeled news articles)
+Key Steps:
+- Text cleaning, normalization, and preprocessing
+- TF‑IDF vectorization
+- Baseline models: Logistic Regression and Naive Bayes
+- Analysis of linguistic patterns and feature importance
+These models provided a reliable foundation and helped identify core textual signals associated with misinformation.
+
+**🤖 Phase 2: Transformer Models & Deployment**
+
+Goal: Improve accuracy and build a practical, user‑facing solution.
+Advanced Models:
+- Lightweight Keras Transformer
+- Fine‑tuned DistilBERT (best performance)
+Deployment:
+A Gradio web application was developed to enable:
+- Real‑time fake news classification
+- Headline‑article consistency checking
+- A simple, business‑ready interface for end‑users
+
+**🏁 Conclusion**
+
+This project demonstrates a full NLP pipeline—from preprocessing and baseline modeling to transformer fine‑tuning and application deployment—showing how machine learning can be applied to combat misinformation at scale.
